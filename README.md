@@ -19,5 +19,12 @@ You can install them using PIP or using Pycharm.
 
 Pycharm creates its own Virtual Environment (VE) to avoid contamination
 
-  
+### Homework
+Explore with python (or postman), using requests, postcodes.io - to test
+
+Use python to make a request for a given postcode
+
+Try to capture the response
+
+Convert the reponse (probably a json) into a dictionary  
 
