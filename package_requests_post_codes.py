@@ -1,11 +1,32 @@
 import requests
+import json
+#
+# request_google = requests.get("https://www.google.com/")
+#
+# print(request_google)
+# print(request_google.text)
+# print(request_google.status_code)
+#
+# # print("Server: " + request_google.headers['server'])
+# # print("Last modified: " + request_google.headers['last modified'])
+# # print("Content type: " + request_google.headers['content-type'])
+# # requests.get("https://www.google.com/").json()
+#
+# resp_1 = requests.get("http://www.webcode.me")
+# print(resp_1.status_code)
+#
+# resp_2 = requests.head("http://www.webcode.me")
+# print("Server: " + resp_2.headers['server'])
+# print("Last modified: " + resp_2.headers['last-modified'])
+# print("Content type: " + resp_2.headers['content-type'])
 
-request_bbc = requests.get('https://www.bbc.co.uk/news')
+## Mucking around with JSON a bit
+resp = requests.get("https://httpbin.org/get?name=Peter")
+print(resp.status_code)
+print(resp.text)
+print(resp.json())
 
-print(request_bbc)
-print(request_bbc.content)
-
-# import json
+# print(request_google.json())
 
 ## pseudo code
 # Explore this requests package that is installed
