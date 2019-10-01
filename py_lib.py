@@ -17,4 +17,5 @@ num = 72.33
 print(math.ceil(num))
 time.sleep(1)
 print(math.floor(num))
-time.slee(.51)
+time.sleep(.51)
+print(math.isnan(num))
